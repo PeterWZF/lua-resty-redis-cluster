@@ -4,7 +4,7 @@ Name
 lua-resty-redis-cluster
 the content is to be add.
 
-下载完成后，只需要用到包中2个文件rediscluster.lua和redis_slot.c
+下载完成后，只需要用到包中2个文件rediscluster.lua(放在../lualib/resty/目录下)和redis_slot.c(放在../lualib/目录下)
 
 .c文件无法在nginx配置文件中引入，需要编译成.so文件，编译命令： gcc SOURCE_FILES -fPIC -shared -o TARGET
 
