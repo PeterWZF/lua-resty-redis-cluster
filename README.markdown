@@ -3,6 +3,7 @@ Name
 
 lua-resty-redis-cluster
 the content is to be add.
+解决了集群环境下需要密码的问题
 
 下载完成后，只需要用到包中2个文件rediscluster.lua(放在../lualib/resty/目录下)和redis_slot.c(放在../lualib/目录下)
 
